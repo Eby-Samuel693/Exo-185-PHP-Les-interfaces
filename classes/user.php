@@ -11,7 +11,16 @@ class user implements UserInterface
         $this->getRequest($_REQUEST);
     }
 
+    public function setNom($nom)
+    {
+        $this->nom = $nom;
+    }
 
+    public function getRequest($request) {
 
+    }
 
+    public function parseRequest() {
+
+    }
 }
